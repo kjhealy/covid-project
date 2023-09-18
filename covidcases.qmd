@@ -1,0 +1,11 @@
+---
+title: "Covid Case Sample"
+format: html
+---
+
+## Setup
+
+```{r}
+library(tidyverse)
+```
+
