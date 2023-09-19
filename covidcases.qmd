@@ -19,6 +19,7 @@ mtcars |>
   ggplot(mapping = aes(x = hp, 
                        y = mpg)) + 
   geom_point() + 
-  geom_smooth()
+  geom_smooth() + 
+  labs(title = "This is the plot I want")
 ```
 
