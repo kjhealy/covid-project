@@ -10,3 +10,15 @@ library(tidyverse)
 ```
 
 ## Read in the data
+
+
+## Figtest
+
+```{r}
+mtcars |> 
+  ggplot(mapping = aes(x = hp, 
+                       y = mpg)) + 
+  geom_point() + 
+  geom_smooth()
+```
+
