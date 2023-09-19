@@ -11,6 +11,10 @@ library(tidyverse)
 
 ## Read in the data
 
+```{r}
+df <- read_csv(here::here("data", "uscases.csv"))
+```
+
 
 ## Figtest
 
